@@ -1298,7 +1298,7 @@ local aa, ab, ac, ad, ae, af, ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as
 						e = {}
 					end
 				else
-					e = loadstring(game:HttpGet([[https://raw.githubusercontent.com/zuvbruv/test/refs/heads/main/Fusion.lua]]))
+					e = loadstring(game:HttpGet([[https://raw.githubusercontent.com/zuvbruv/test/refs/heads/main/Fusion.lua]]))()
 				end
 				return e
 			end)()
@@ -5151,5 +5151,6 @@ for aR, aS in ai, aI do
 	aC(aQ, aS)
 end
 return aQ(aP:GetChildren()[1])
+
 
 
